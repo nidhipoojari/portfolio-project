@@ -37,7 +37,7 @@
   }
 }
 
-/**********NAVBAR**********/
+/*******************************NAVBAR********************************/
 
 .nav {
 z-index: 2;
@@ -48,7 +48,7 @@ z-index: 2;
   height: 8rem;
 }
 
-/**********MENU LINKS**********/
+/****************************MENU LINKS*****************************/
 nav a.nav-link {
   font-weight: 100;
   letter-spacing: 0.6px;
@@ -66,7 +66,7 @@ nav ul li {
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 body {
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 :root {
@@ -97,7 +97,7 @@ body {
   border-top: 0.1875rem solid var(--primary-blue) ;
 }
 
-/**********HEADER**********/
+/***************************HEADER*********************************/
 
 .header-wrapper {
   position: relative;
@@ -136,7 +136,7 @@ body {
 }
 
 
-/**********TYPED TEXT**********/
+/********************TYPED TEXT************************/
 
 .typed-text {
   font-size: 2rem;
@@ -152,7 +152,7 @@ body {
   }
 }
 
-/**********PARTICLES JS**********/
+/*********************PARTICLES JS************************/
 
 .tsparticles-canvas-el {
 position: absolute;
@@ -166,4 +166,32 @@ z-index: 1;
     display: none;
   }
 }
+
+/*********************ABOUT ME************************/
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-blue);
+
+}
+
+.aboutme_heading {
+  color: var(--primary-black);
+  text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
