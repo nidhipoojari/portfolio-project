@@ -74,6 +74,7 @@ body {
   --primary-blue:#89CFF0;
   --primary-dark:rgba(255,255,255,0);
   --primary-black: #000;
+  --primary-pink: #cc8899;
 }
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -195,3 +196,25 @@ z-index: 1;
 }
 
 
+/*********************SKILLS************************/
+
+.skill {
+  background-color: var(--primary-black);
+}
+
+
+.icon {
+  width: auto;
+  height: 200px;
+  margin: 10px;
+  padding: 50px;
+  z-index: 2;
+}
+
+.skill-header {
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-blue);
+  margin-left: 40%;
+}

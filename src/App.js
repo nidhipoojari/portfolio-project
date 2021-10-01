@@ -4,10 +4,12 @@ import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 
 function App() {
   return (
-    <>
+    <>  
+    <Navbar/>
     <Particles
     className="particles-canvas"
     params={{
@@ -29,9 +31,30 @@ function App() {
       }
     }}
     />
-    <Navbar/>
     <Header/>
     <AboutMe/>
+    <Particles
+    className="particles-canvas"
+    params={{
+      particles: {
+        number: {
+          value: 20,
+          density: {
+            enable: true,
+            value_area: 900
+          }
+        },
+        shape: {
+          type:"square",
+          stroke: {
+            width: 5,
+            color:"#89CFF0"
+          }
+        }
+      }
+    }}
+    />
+    <Skills/>
     </>
   );
 }
