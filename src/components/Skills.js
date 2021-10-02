@@ -13,9 +13,10 @@ import git from "../git.png";
 function Skills() {
     return (
         <div className="skills">
+                           <h1 className="py-5 skill-header">My Skills</h1>
+
             <div className="container-fluid skill">
                <div class="mb-5">
-               <h1 className="py-5 skill-header">My Skills</h1>
                   <div class="d-flex justify-content-around flex-wrap">  
                       <img className="icon" src={html} alt="html"/>
                       <img className="icon" src={css} alt="css"/> 
