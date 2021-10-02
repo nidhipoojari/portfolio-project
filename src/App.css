@@ -218,6 +218,7 @@ z-index: 1;
   align-items: center;
   color: var(--primary-black);
   margin-left: 40%;
+  z-index: 3;
 }
 
 /*********************EXPERIENCE************************/
@@ -290,5 +291,32 @@ z-index: 1;
 .timeline-content h6 {
   text-transform: uppercase;
   font-weight: 600;
+}
+
+
+/*********************EDUCATION************************/
+
+
+.education-header {
+  text-transform: uppercase;
+  justify-content: center;
+  color: var(--primary-black);
+  margin-left: 40%;
+}
+
+.education-container {
+  background-color: var(--primary-black);
+  color: var(--primary-blue);
+}
+
+.year {
+  float: right;
+  margin-top: -65px;
+  margin-right: 10%;
+}
+
+.edu-content {
+  padding: 5px;
+  margin: 30px;
 }
 
