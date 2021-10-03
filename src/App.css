@@ -305,8 +305,8 @@ z-index: 1;
 }
 
 .education-container {
-  background-color: var(--primary-black);
-  color: var(--primary-blue);
+  background-color: var(--primary-blue);
+  color: var(--primary-black);
 }
 
 .year {
@@ -320,3 +320,87 @@ z-index: 1;
   margin: 30px;
 }
 
+
+/*********************CONTACT ME************************/
+
+.contacts {
+ background-color: var(--primary-black);
+ padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-pink);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-blue);
+  font-size: 1.2rem;
+}
+
+
+/*---------------------INPUTS---------------------------------*/
+
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-pink);
+  border-radius: 0;
+  color: var(--primary-blue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background-color: transparent;
+  color: var(--primary-blue);
+  border-bottom: 0.25rem solid var(--primary-blue);
+}
+
+.contacts button {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  border: 1px solid var(--primary-pink);
+  background-color: transparent;
+  color: var(--primary-pink);
+}
+
+.contacts button:hover {
+  background-color: var(--primary-blue);
+}
+
+.contacts textarea {
+  height: 12.4rem !important;
+}
+
+
+/*---------------------MEDIA------------------------------*/
+
+@media(max-width:768px) {
+  .contacts {
+overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding:0 0.4rem;
+  }
+}
+
+.error-message {
+  color: var(--primary-pink);
+}
