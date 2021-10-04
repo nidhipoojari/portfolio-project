@@ -106,7 +106,7 @@ body {
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -403,4 +403,28 @@ overflow-x: hidden;
 
 .error-message {
   color: var(--primary-pink);
+}
+
+
+/*********************FOOTER************************/
+
+.footer{
+  background-color: grey;
+  color: var(--primary-black);
+  padding:3rem;
+}
+
+.footer a {
+text-decoration:none;
+color: var(--primary-black);
+}
+
+.footer a:hover {
+  text-decoration:none;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 1rem;
 }

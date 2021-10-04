@@ -12,7 +12,7 @@ import git from "../git.png";
 
 function Skills() {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
            <h1 className="py-5 skill-header">My Skills</h1>
 
             <div className="container-fluid skill">
